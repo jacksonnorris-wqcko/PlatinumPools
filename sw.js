@@ -1,5 +1,5 @@
 /* Platinum Ops service worker. Bump CACHE_VERSION on every release. */
-const CACHE_VERSION = 'platinum-ops-v0.0.2-aqua';
+const CACHE_VERSION = 'platinum-ops-v0.0.3-safearea';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg', './platinum-pools-logo.png', './apple-touch-icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_VERSION).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));

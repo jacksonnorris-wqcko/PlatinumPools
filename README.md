@@ -1,11 +1,11 @@
-# Platinum Ops — v0.0.2
+# Platinum Ops — v0.0.3
 
 A private, mobile-first PWA starter for Platinum Pools NSW. This is an internal business tool, not a consumer-facing website.
 
-## v0.0.2 branding update
+## v0.0.3 branding update
 - Uses the supplied Platinum Pools NSW logo in the app navigation and header.
 - Uses the supplied logo artwork for the PWA icon and iPhone `apple-touch-icon`.
-- Updates the visible version to v0.0.2 and bumps the service-worker cache.
+- Updates the visible version to v0.0.3 and bumps the service-worker cache.
 - Preserves the existing local storage key so v0.0.1 job and quote data is not deliberately discarded by this release.
 
 ## Deploy to GitHub Pages
@@ -26,3 +26,10 @@ For each release, update the visible `VERSION` and labels in `index.html`, bump 
 
 ## Privacy
 Do not store confidential client plans or sensitive personal data until authentication, access control and secure cloud storage are implemented.
+
+
+### v0.0.3 visual polish
+- Improved iPhone safe-area spacing so the header avoids the status bar/notch area.
+- Changed iOS status-bar configuration from translucent to default to prevent content appearing behind the clock and battery.
+- Refined mobile header sizing and bottom navigation spacing while preserving the charcoal/aqua/white palette and supplied logo.
+- Bumped the service-worker cache version for the release.
