@@ -1,0 +1,19 @@
+{
+  "name": "Platinum Ops \u2014 Pool Business Toolkit",
+  "short_name": "Platinum Ops",
+  "description": "Private jobs, quoting and earthworks tools for pool building.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f6f8",
+  "theme_color": "#101c2a",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
