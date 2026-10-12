@@ -1,6 +1,6 @@
 /* Platinum Ops service worker. Bump CACHE_VERSION on every release. */
-const CACHE_VERSION = 'platinum-ops-v0.0.1';
-const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
+const CACHE_VERSION = 'platinum-ops-v0.0.1-brand-refresh';
+const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg', './platinum-logo.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_VERSION).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
 });

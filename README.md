@@ -1,6 +1,6 @@
 # Platinum Ops — v0.0.1
 
-A private, mobile-first PWA starter for pool-business operations, inspired by Platinum Pools NSW's premium, locally focused branding. This is an internal tool, not a customer-facing website.
+A private, mobile-first PWA starter for pool-business operations, inspired by Platinum Pools NSW's premium, locally focused branding with a charcoal, aqua and pale-water palette. This is an internal tool, not a customer-facing website.
 
 ## Included in v0.0.1
 - Dashboard overview
@@ -11,6 +11,7 @@ A private, mobile-first PWA starter for pool-business operations, inspired by Pl
 - JSON export/import backup
 - PWA manifest, offline app shell and update-on-reopen service worker
 - Visible version label
+- Refreshed charcoal/aqua visual palette, custom in-app Platinum Pools NSW wordmark and matching homescreen icon
 
 ## Deploy to GitHub Pages
 1. Create a GitHub repository for the app.
